@@ -1,0 +1,6 @@
+all:
+	ant picard-jar
+	mv dist\picard.jar .
+
+run:
+	sh cwgs.sh other.bam
